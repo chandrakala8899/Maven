@@ -9,6 +9,7 @@ public class LoanService {
         loanDetails.accountNumber = inputs.accountNumber;
         loanDetails.loanAmount = 100000;
         loanDetails.duration = 12;
+        loanDetails.intrest= 0.2;
         return loanDetails;
     }
 

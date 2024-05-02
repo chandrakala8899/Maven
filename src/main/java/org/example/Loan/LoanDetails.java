@@ -5,5 +5,6 @@ public class LoanDetails {
     public  String accountNumber;
     public int loanAmount;
     public int duration;
+    public  double intrest;
 
 }

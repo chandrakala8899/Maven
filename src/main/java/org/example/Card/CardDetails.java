@@ -10,7 +10,10 @@ public class CardDetails {
     public String cardNumber;
     public Date expiryDate;
     public String cvvNumber;
-    public Address address;
-    public String minimumAmount;
+
+    public Address cardAddress;
+    public Address userAddress;
+    public int availableAmount;
+    public int CardLimit;
 
 }

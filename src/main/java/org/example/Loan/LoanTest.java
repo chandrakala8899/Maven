@@ -12,5 +12,6 @@ LoanService loanService = new LoanService();
 LoanDetails loanDetails = loanService.loan(ab);
         System.out.println(loanDetails.loanAmount);
         System.out.println(loanDetails.duration);
+        System.out.println(loanDetails.intrest);
     }
 }

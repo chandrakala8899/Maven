@@ -7,11 +7,12 @@ public class AddressTest {
         address.city=" hyderabad";
          address.flatNo ="2-164";
          address.pincode = "12345";
+        System.out.println(address);
 
         User user = new User();
         user.userName= "chandu";
         user.passWord = "1234";
-        user.address1 = address;
+        user.address = address;
 
 
         Address address1 = new Address();
@@ -20,11 +21,9 @@ public class AddressTest {
         address1.city ="Gadwal";
         address1.pincode = "34567";
 
-        Restarent restarent = new Restarent();
-        restarent.restarentName= "PistaHouse";
-        restarent.orderItems = 5;
-       restarent.address= address1;
-
-
+        Restarent restaraunt = new Restarent();
+        restaraunt.restarentName= "PistaHouse";
+        restaraunt.orderItems = 5;
+        restaraunt.address= address1;
     }
 }
